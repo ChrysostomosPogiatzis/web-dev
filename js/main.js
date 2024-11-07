@@ -17,3 +17,4 @@ function counterMinus(){
  function alertCount($number){
    alert('Counter : ' +$number);
  }
+ 

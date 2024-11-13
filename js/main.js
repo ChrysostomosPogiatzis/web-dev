@@ -1,20 +1,28 @@
-function counterPlus(){
-  
-   var $counter= document.getElementById("counter").value ++; 
-   if($counter>15){
-    alertCount($counter);
+function counterPlus() {
+
+   var $counter = document.getElementById("counter").value++;
+   if ($counter > 15) {
+      alertCount($counter);
    }
 }
 
-function counterMinus(){
-    var $counter= document.getElementById("counter").value --; 
-    
- }
- function counterZero(){
-    var $counter= document.getElementById("counter").value=0; 
- }
+function counterMinus() {
+   var $counter = document.getElementById("counter").value--;
 
- function alertCount($number){
-   alert('Counter : ' +$number);
- }
- 
+}
+function counterZero() {
+   var $counter = document.getElementById("counter").value = 0;
+}
+
+function alertCount($number) {
+   alert('Counter : ' + $number);
+}
+function changeBg() {
+   var $color = document.getElementById("colorBg").value;
+   document.getElementById("color").style.backgroundColor = $color;
+}
+function clearColor() {
+   document.getElementById("colorBg").value = '#FFFFFF';
+   changeBg();
+
+}

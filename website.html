@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body id="color">
+    <header>
+      <nav>
+        <ul class="topnav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/login.html">Login/Registration</a></li>
+          <li><a href="/website.html">my Website</a></li>
+          <li><a href="/bio.html">My Bio</a></li>
+          <li><a href="/anad.html">ANAD Knolage</a></li>
+          <li class="split">
+            <a href="/profile.html" class="white">My Profile</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1 class="blue">My Counter</h1>
+      <div>
+        <img src="/image/counter.png" width="100vw" />
+      </div>
+      <div>
+        <input value="0" id="counter" />
+      </div>
+      <div>
+        <button onclick="counterPlus()">Click me +</button>
+        <button onclick="counterMinus()">Click me-</button>
+      </div>
+      <div>
+        <button onclick="counterZero()">Click me to Zero</button>
+      </div>
+      <div>
+        <h2>Change Backround Color</h2>
+        <input id="colorBg" type="color" onchange="changeBg()" />
+      </div>
+      <div>
+        <button onclick="clearColor()">Clear Color</button>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h2>My Table</h2>
+        <table id="table">
+          <tr>
+            <th class="tableTitle">Name</th>
+            <th class="tableTitle">Age</th>
+          </tr>
+        </table>
+        <div>
+          <button onclick="insertInTable()">Add to Table</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div>this is a <span class="footerTest">footer</span></div>
+    </footer>
+  </body>
+
+  <script src="js/main.js"></script>
+</html>

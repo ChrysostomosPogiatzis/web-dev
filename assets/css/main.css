@@ -109,3 +109,20 @@ section::after {
     height: auto;
   }
 }
+
+.register-login label {
+  color: rgb(255, 255, 255);
+  display: block;
+  margin-bottom: 10px;
+}
+.register-login input {
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #2d9fd9;
+}
+
+.input-label {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

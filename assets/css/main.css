@@ -4,6 +4,9 @@ p {
 h1 {
   font-size: 29px;
 }
+.white {
+  color: rgb(255, 255, 255);
+}
 #counter {
   border: hidden;
   text-align: center;
@@ -91,9 +94,6 @@ nav ul {
 .topnav a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-}
-.white {
-  color: rgb(0, 0, 0);
 }
 
 /* Clear floats after the columns */
